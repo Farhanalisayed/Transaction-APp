@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.the-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (max-width: 767px) {
+  .upper {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .lower-cards {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .history-elem {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media (min-width: 767px) {
+  .history-elem {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+  .upper {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .lower-cards {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+}
+.form-elem {
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid #7e858e;
+  margin: 7px;
+  padding: 5px;
+  display: flex;
+    flex-direction: column;
+}
+.data-elem {
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid #7e858e;
+  margin: 7px;
+  padding: 5px;
+}
+.titles {
+  margin: 3px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  list-style-type: none;
+}
+.title {
+  color: black;
+  font-size: 17px;
+}

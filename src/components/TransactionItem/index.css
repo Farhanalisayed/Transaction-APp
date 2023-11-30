@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.the-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.delete-btn {
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+}
+.image {
+  height: 30px;
+  width: 30px;
+}
